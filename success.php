@@ -1,6 +1,6 @@
 <?php
 
-require("common.php");
+require("includes/common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -21,12 +21,11 @@ mysqli_query($con, $query) or die($mysqli_error($con));
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
 
         <div class="container-fluid" id="content">
             <div class="col-md-12">
                 <div class="col-lg-4 col-md-6 ">
-                    <img src="img/thanks.png" style="float: left;">
                 </div>
                 <div class="jumbotron">
                       <h3 align="center">YAY!! Your order is confirmed. Thank you for shopping with us.</h3><hr>

@@ -18,7 +18,6 @@ if (!isset($_SESSION['email'])) {
         <div class="container-fluid" id="content">
             <?php include 'includes/header.php'; ?>
             <div class="col-lg-4 col-md-6 ">
-                    <img src="img/cart.jpg" style="float: left;">
                 </div>
             <div class="row decor_bg">
                 <div class="col-md-6">

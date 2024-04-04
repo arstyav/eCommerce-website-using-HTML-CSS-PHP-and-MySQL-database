@@ -30,19 +30,19 @@ require("includes/common.php");
         <div class="container" id="content">
             <!-- Jumbotron Header -->
             <div class="jumbotron home-spacer" id="products-jumbotron">
-                <h1>Welcome to our Lifestyle Store!</h1>
-                <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
+                <h1>Welcome to our floral haven!</h1>
+                <p>Immerse yourself in the beauty of nature with our handpicked collection, designed to evoke joy and inspire every moment.</p>
 
             </div>
             <hr>
 
-            <div class="row text-center" id="cameras">
+            <div class="row text-center" id="fresh">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/5.jpg" alt="">
+                        <img src="img/tulip.jpeg" alt="">
                         <div class="caption">
-                            <h3>Cannon EOS </h3>
-                            <p>Price: Rs. 36000.00 </p>
+                            <h3>Tulip/pcs </h3>
+                            <p>Price: Rp. 33,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -64,10 +64,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/2.jpg" alt="">
+                        <img src="img/rose.jpeg" alt="">
                         <div class="caption">
-                            <h3>Nikon DSLR </h3>
-                            <p>Price: Rs. 40,000.00 </p>
+                            <h3>Rose/pcs </h3>
+                            <p>Price: Rp. 12,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -90,10 +90,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/3.jpg" alt="">
+                        <img src="img/lily.jpeg" alt="">
                         <div class="caption">
-                            <h3>Sony DSLR</h3>
-                            <p>Price: Rs. 45000.00</p>
+                            <h3>Lily/pcs</h3>
+                            <p>Price: Rp. 15,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -116,10 +116,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/4.jpg" alt="">
+                        <img src="img/aster.jpeg" alt="">
                         <div class="caption">
-                            <h3>Olympus DSLR</h3>
-                            <p>Price: Rs. 50000.00</p>
+                            <h3>Aster/pcs</h3>
+                            <p>Price: Rp. 10,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -141,13 +141,13 @@ require("includes/common.php");
                 </div>
             </div>
 
-            <div class="row text-center" id="watches">
+            <div class="row text-center" id="bouquet">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/18.jpg" alt="">
+                        <img src="img/cascade.jpeg" alt="">
                         <div class="caption">
-                            <h3>Titan Model #301 </h3>
-                            <p>Price: Rs. 13000.00 </p>
+                            <h3>Cascade Bouquet</h3>
+                            <p>Price: Rp. 162,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -170,10 +170,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/19.jpg" alt="">
+                        <img src="img/round.jpeg" alt="">
                         <div class="caption">
-                            <h3>Titan Model #201</h3>
-                            <p>Price: Rs. 3000.00 </p>
+                            <h3>Round Bouquet</h3>
+                            <p>Price: Rp. 190,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -196,10 +196,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/20.jpg" alt="">
+                        <img src="img/handtied.jpeg" alt="">
                         <div class="caption">
-                            <h3>HMT Milan</h3>
-                            <p>Price: Rs. 8000.00 </p>
+                            <h3>Hand-Tied Bouquet</h3>
+                            <p>Price: Rp. 250,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -222,10 +222,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/21.jpg" alt="">
+                        <img src="img/pageant.jpeg" alt="">
                         <div class="caption">
-                            <h3>Faber Luba #111 </h3>
-                            <p>Price: Rs. 18000.00 </p>
+                            <h3>Pageant Bouquet</h3>
+                            <p>Price: Rp. 285,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -247,13 +247,13 @@ require("includes/common.php");
                 </div>
             </div>
 
-            <div class="row text-center" id="shirts">
+            <div class="row text-center" id="accessories">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/22.jpg" alt="">
+                        <img src="img/sneakers.jpeg" alt="">
                         <div class="caption">
-                            <h3>H&W </h3>
-                            <p>Price: Rs. 800.00 </p>
+                            <h3>Snack Snickers/pcs</h3>
+                            <p>Price: Rp. 14,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -276,10 +276,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/23.jpg" alt="">
+                        <img src="img/doll.jpeg" alt="">
                         <div class="caption">
-                            <h3>Luis Phil</h3>
-                            <p>Price: Rs. 1000.00</p>
+                            <h3>Mini Doll/pcs</h3>
+                            <p>Price: Rp. 35,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -302,10 +302,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/24.jpg" alt="">
+                        <img src="img/candy.jpeg" alt="">
                         <div class="caption">
-                            <h3>John Zok</h3>
-                            <p>Price: Rs. 1500.00</p>
+                            <h3>Candy/pcs</h3>
+                            <p>Price: Rp. 25,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -328,10 +328,10 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/25.jpg" alt="">
+                        <img src="img/coklat.jpeg" alt="">
                         <div class="caption">
-                            <h3>Jhalsani</h3>
-                            <p>Price Rs. 1300.00</p>
+                            <h3>Chocolate Ferrero Rocher/box</h3>
+                            <p>Price Rp. 110,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>

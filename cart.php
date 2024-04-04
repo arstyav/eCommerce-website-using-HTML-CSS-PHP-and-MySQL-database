@@ -1,5 +1,5 @@
 <?php
-require("common.php");
+require("includes/common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -16,9 +16,8 @@ if (!isset($_SESSION['email'])) {
     </head>
     <body>
         <div class="container-fluid" id="content">
-            <?php include 'header.php'; ?>
+            <?php include 'includes/header.php'; ?>
             <div class="col-lg-4 col-md-6 ">
-                    <img src="img/confirmorder.png" style="float: left;">
                 </div>
             <div class="row decor_bg">
                 <div class="col-md-6">

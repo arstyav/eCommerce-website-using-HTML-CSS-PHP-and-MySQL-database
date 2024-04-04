@@ -1,5 +1,5 @@
 <?php
-require("common.php");
+require("includes/common.php");
 if (isset($_SESSION['email'])) {
     header('location: products.php');
 }
@@ -8,18 +8,16 @@ if (isset($_SESSION['email'])) {
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Signup | Life Style Store</title>
+        <title>Flowerscent.</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
         <div class="container-fluid decor_bg" id="content">
-            <div class="col-lg-4 col-md-6">
-                <img src="img/signup1.jpg">
-            </div>
+            
             <div class="row">
                 <div class="container">
                     <div class="col-lg-4 col-lg-offset-3 col-md-6">
@@ -43,7 +41,7 @@ if (isset($_SESSION['email'])) {
                             <div class="form-group">
                                 <input  type="text" class="form-control"  placeholder="Address" name="address" required = "true">
                             </div>
-                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" name="submit" class="btn btn-primary" style="background-color: #75294c;">Submit</button>
                         </form>
                     </div>
                 </div>

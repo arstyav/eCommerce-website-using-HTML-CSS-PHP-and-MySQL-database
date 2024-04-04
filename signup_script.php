@@ -1,6 +1,6 @@
 <?php
 
-require("common.php");
+require("includes/common.php");
 
   // Getting the values from the signup page using $_POST[] and cleaning the data submitted by the user.
   $name = $_POST['name'];

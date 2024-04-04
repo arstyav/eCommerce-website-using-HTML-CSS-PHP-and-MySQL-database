@@ -11,7 +11,7 @@ if (isset($_SESSION['email'])) {
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Login | Life Style Store</title>
+        <title>Flowerscent.</title>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -20,16 +20,14 @@ if (isset($_SESSION['email'])) {
     </head>
 
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
-                <div class="col-lg-4 col-md-6">
-                    <img src="img/yess.jpg">
-                </div>
+                
                 <div class="row">
                     <div class="col-lg-4 col-lg-offset-3 col-md-4">
-                        <div class="panel panel-primary" >
-                            <div class="panel-heading">
+                        <div class="panel panel-primary"  >
+                            <div class="panel-heading" style="background-color: #75294c;">
                                 <h4>LOGIN</h4>
                             </div>
                             <div class="panel-body">
@@ -42,7 +40,7 @@ if (isset($_SESSION['email'])) {
                                         <input type="password" class="form-control" placeholder="Password" name="password" required = "true">
                                     </div>
                                     
-                                    <button type="submit" name="submit" class="btn btn-primary">Login</button><br><br>
+                                    <button type="submit" name="submit" class="btn btn-primary" style="background-color: #75294c;">Login</button><br><br>
                                     <?php if(isset($_GET['error'])) echo $_GET['error']; ?>
                                 </form><br/>
                             </div>
